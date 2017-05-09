@@ -1,0 +1,121 @@
+body {
+	background-color: #fff;
+}
+
+#container {
+	border: none;
+}
+
+#navbar {
+	background-color: #FFB4B0;
+	border-style: solid;
+	width: 80%;
+	margin: 5% 10% 1.5% 10%;
+	padding: 2px 5px;
+}
+
+/*#navlist {
+	display: inline-block;
+}*/
+
+nav li {
+	display: inline-block;
+	text-decoration: none;
+	list-style-type: none;
+	padding: 0;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+
+#controlBox {
+	border: solid;
+	background-color: #4DD7FA;
+	float: left;
+	width: 20%;
+	height: 360px;
+	margin: 0 0 0 10%;
+	padding: 1%;
+}
+
+.artist {
+	text-align: center;
+}
+
+.album {
+	text-align: center;
+}
+
+#songBox {
+	border: solid black;
+	color: #785616;
+	background-color: #FEFAC0;
+	float: left;
+	width: 53%;
+	height: 340px;
+	margin-left: 1.5%;
+	padding: 2%;
+}
+
+/***********************************
+SETTING MARGINS FOR THE CONTROL BOX
+************************************/
+#sliderBox {
+	text-align: left;
+	margin: 15px 0px;
+}
+
+#artistBox {
+	margin: 15px 0px;
+}
+
+#albumBox {
+	margin: 15px 0px;
+}
+
+#genreBox {
+	margin-bottom: 5px;
+}
+
+#genreDiv1 {
+	margin: 5px 0px;
+	float: left;
+	padding: 0 5px;
+}
+
+#genreDiv2 {
+	margin: 5px 0px;
+	float: right;
+	padding: 0 5px;
+}
+
+.genreLabel {
+	text-align: left;
+}
+
+#filterBtn {
+	font-size: 1.1rem;
+}
+
+#filterBtnDiv {
+	clear: both;
+	justify-content: center;
+	text-align: center;
+	margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

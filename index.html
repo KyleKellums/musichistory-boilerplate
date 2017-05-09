@@ -1,13 +1,119 @@
-<!doctype html>
+<!Doctype html>
 
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <title>Music History</title>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 
 <body>
+	<div id="container">
 
+		<nav id="navbar">
+			<ul class="navlist">
+				<li>View Music |</a></li>
+				<li><a href="#">Add Music |</a></li>
+				<li><a href="#">Profile</a></li>
+			</ul>
+		</nav>
 
+		<div id="controlBox">
+			<div id="sliderBox">
+				<label>Song Length:</label>
+				<input type="range" name="song-length">
+			</div>
+
+			<div id="artistBox">
+				<label>Artist:</label><br>
+				<select class="artist">
+					<option>Options</option>
+					<option value="Joshua Redman">Joshua Redman</option>
+					<option value="Sting">Sting</option>
+					<option value="Radiohead">Radiohead</option>
+					<option value="Brad Mehldau">Brad Mehldau</option>
+					<option value="Derek Trucks">Derek Trucks</option>
+				</select>
+			</div>
+
+			<div id="albumBox">
+				<label>Album:</label>
+				<select class="album">
+					<option>Options</option>
+					<optgroup label="Joshua Redman">Joshua Redman</optgroup>
+					<option value="Wish">Wish</option>
+					<option value="Freedom in the Groove">Freedom in the Groove</option>
+					<optgroup label="Sting">Sting</optgroup>
+					<option value="Brand New Day">Brand New Day</option>
+					<option value="Mercury Falling">Mercury Falling</option>
+					<optgroup label="Radiohead">Radiohead</optgroup>
+					<option value="Kid A">Kid A</option>
+					<option value="In Rainbows">In Rainbows</option>
+					<optgroup label="Brad Mehldau">Brad Mehldau</optgroup>
+					<option value="Songs:The Art of the Trio">Songs:The Art of the Trio</option>
+					<option value="Largo">Largo</option>
+					<optgroup label="Derek Trucks">Derek Trucks</optgroup>
+					<option value="Everybody's Talkin">Everybody's Talkin</option>
+					<option value="Songlines">Songlines</option>
+				</select>
+			</div>
+
+			<label class="genreLabel">Genre:</label>
+			<div id=genreBox>
+					<div id="genreDiv1">
+						<input type="checkbox" class="genre" name="Rock">
+						<label for="genre">Rock</label><br>
+
+						<input type="checkbox" class="genre" name="Jazz">
+						<label for="genre">Jazz</label><br>
+
+						<input type="checkbox" class="genre" name="Blues">
+						<label for="genre">Blues</label><br>
+					</div>
+
+					<div id="genreDiv2">
+						<input type="checkbox" class="genre" name="Alternative">
+						<label for="genre">Alternative</label><br>
+
+						<input type="checkbox" class="genre" name="Pop">
+						<label for="genre">Pop</label><br>
+
+						<input type="checkbox" class="genre" name="Classical">
+						<label for="genre">Classical</label><br>
+					</div>
+			</div>
+
+			<div id="filterBtnDiv">
+				<button type="submit" id="filterBtn" name="filter">Filter</button>
+			</div>
+		</div>
+
+		<div id="songBox">
+            <h3>Hide and Seek</h3>
+            <p>Joshua Redman  |   Freedom in the Groove  |   Jazz   </p>
+            <h3>Ghost Story</h3>
+            <p>Sting  |   Brand New Day  |   Pop   </p>
+            <h3>Morning Bell</h3>
+            <p>Radiohead  |   Kid A  |   Alternative   </p>
+            <h3>Exit Music</h3>
+            <p>Brad Mehldau  |  Art of the Trio  |  Jazz  </p>
+        </div>
+	</div>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
