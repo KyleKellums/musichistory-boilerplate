@@ -97,13 +97,13 @@ SETTING MARGINS FOR THE CONTROL BOX
 
 #filterBtn {
 	font-size: 1.1rem;
+	margin-top: 18px;
 }
 
 #filterBtnDiv {
 	clear: both;
 	justify-content: center;
 	text-align: center;
-	margin-top: 10px;
 }
 
 
